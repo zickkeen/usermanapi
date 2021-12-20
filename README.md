@@ -1,13 +1,13 @@
-# SLIM 4 - API SKELETON
+# MiUse (Mikrotik Userman) API Gateway
 
-Useful skeleton for RESTful API development, using [Slim PHP micro framework](https://www.slimframework.com).
+Useful MiUse API Gate for RESTful API Mikrotik Userman Development, using [Mikrotik Userman API Gateway](https://www.github.com/bojezcreative/usermanapi).
 
 Used technologies: `PHP 7, Slim 4, MySQL, PHPUnit, dotenv, Docker & Docker Compose`.
 
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://travis-ci.com/maurobonfietti/slim4-api-skeleton.svg?branch=master)](https://travis-ci.com/maurobonfietti/slim4-api-skeleton)
-[![Coverage Status](https://coveralls.io/repos/github/maurobonfietti/slim4-api-skeleton/badge.svg?branch=master)](https://coveralls.io/github/maurobonfietti/slim4-api-skeleton?branch=master)
-[![Packagist Version](https://img.shields.io/packagist/v/maurobonfietti/slim4-api-skeleton)](https://packagist.org/packages/maurobonfietti/slim4-api-skeleton)
+[![Build Status](https://travis-ci.com/bojezcreative/usermanapi.svg?branch=master)](https://travis-ci.com/bojezcreative/usermanapi)
+[![Coverage Status](https://coveralls.io/repos/github/bojezcreative/usermanapi/badge.svg?branch=master)](https://coveralls.io/github/bojezcreative/usermanapi?branch=master)
+[![Packagist Version](https://img.shields.io/packagist/v/bojezcreative/usermanapi)](https://packagist.org/packages/bojezcreative/usermanapi)
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
 
@@ -27,7 +27,7 @@ Used technologies: `PHP 7, Slim 4, MySQL, PHPUnit, dotenv, Docker & Docker Compo
 You can create a new project running the following commands:
 
 ```bash
-$ composer create-project maurobonfietti/slim4-api-skeleton [my-api-name]
+$ composer create-project bojezcreative/usermanapi [my-api-name]
 $ cd [my-api-name]
 $ composer test
 $ composer start
@@ -46,6 +46,11 @@ DB_NAME='yourMySqlDatabase'
 DB_USER='yourMySqlUsername'
 DB_PASS='yourMySqlPassword'
 DB_PORT='3306'
+
+ROS_HOST='192.168.1.xx'
+ROS_USER='user'
+ROS_PASS='pass'
+ROS_PORT='8728'
 ```
 
 

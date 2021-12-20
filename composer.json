@@ -1,6 +1,6 @@
 {
-    "name": "maurobonfietti/slim4-api-skeleton",
-    "description": "Useful skeleton for RESTful API development, using PHP and Slim 4.",
+    "name": "bojezcreative/usermanapi",
+    "description": "Useful MiUse API Gate for RESTful API Mikrotik Userman Development.",
     "keywords": [
         "php",
         "slim-micro-framework",
@@ -11,15 +11,13 @@
         "rest",
         "api"
     ],
-    "homepage": "https://github.com/maurobonfietti/slim4-api-skeleton",
+    "homepage": "https://github.com/bojezcreative/usermanapi",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Mauro Bonfietti",
-            "email": "mauro.bonfietti@gmail.com",
-            "homepage": "https://github.com/maurobonfietti"
-        }
-    ],
+    "authors": [{
+        "name": "Zick Keen",
+        "email": "jackkinny@gmail.com",
+        "homepage": "https://github.com/zickkeen"
+    }],
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
