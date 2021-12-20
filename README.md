@@ -101,9 +101,10 @@ $ docker-compose down
 ### BY DEFAULT:
 
 - Hello: `GET /`
-
 - Health Check: `GET /status`
-
+- Get User List from RouterOs: `GET /user/list`
+- Import User from RoS to DB: `GET /user/import`
+- Show User list from DB: `GET /user/show`
 
 ## :video_camera: TUTORIAL:
 
@@ -114,8 +115,11 @@ $ docker-compose down
 
 You can support this project inviting me a coffee :coffee: :yum: or giving a **star** to this repo :star: :blush:.
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/maurobonfietti)
-
+* [![Paypal](https://img.shields.io/badge/Paypal-zickkeen-blue)](paypal.me/donateZickkeen)
+* [![Buy Me a coffee](https://img.shields.io/badge/BuyMeCofee-zickkeen-yellow)](buymeacoff.ee/zickkeen)
+* [![SociaBuzz](https://img.shields.io/badge/SociaBuzz-zickkeen-green)](https://sociabuzz.com/zickkeen/tribe)
+* [![BitCoin](https://img.shields.io/badge/btc-18xbSr5kmvxzpHEpJ43LAbXqdZ1XcmKQNf-green)](https://www.blockchain.com/btc/address/18xbSr5kmvxzpHEpJ43LAbXqdZ1XcmKQNf)
+* [![BitCoin](https://img.shields.io/liberapay/gives/zickkeen?logo=zickkeen&style=social)](https://liberapay.com/zickkeen)
 
 ## :sunglasses: THAT'S IT!
 
