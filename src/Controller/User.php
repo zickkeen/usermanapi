@@ -22,6 +22,11 @@ final class User
         $this->container = $container;
     }
 
+    public function getUsers(Request $request, Response $response): Response
+    {
+        return $response->withJson($this->selectUsers());
+    }
+
     public function getLists(Request $request, Response $response): Response
     {
         $RosAPI = new RosAPI();
@@ -68,6 +73,17 @@ final class User
         $params = [$id];
         $query = $db->prepare($queryText);
         $query->execute($params);
+        $result = $query->fetchAll();
+
+        return $result;
+    }
+
+    protected function selectUsers(){
+        $db = $this->container->get('db');
+        $queryText = "SELECT * FROM `user`";
+        // $params = [$id];
+        $query = $db->prepare($queryText);
+        $query->execute();
         $result = $query->fetchAll();
 
         return $result;
