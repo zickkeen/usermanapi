@@ -120,6 +120,7 @@ You can support this project inviting me a coffee :coffee: :yum: or giving a **s
 * [![SociaBuzz](https://img.shields.io/badge/SociaBuzz-zickkeen-green)](https://sociabuzz.com/zickkeen/tribe)
 * [![BitCoin](https://img.shields.io/badge/btc-18xbSr5kmvxzpHEpJ43LAbXqdZ1XcmKQNf-green)](https://www.blockchain.com/btc/address/18xbSr5kmvxzpHEpJ43LAbXqdZ1XcmKQNf)
 * [![BitCoin](https://img.shields.io/liberapay/gives/zickkeen?logo=zickkeen&style=social)](https://liberapay.com/zickkeen)
+* [![DogeCoin](https://img.shields.io/badge/DLHMhGRe8cCdJAypdt512e6PA6N2H5rNHy-yellow)](https://dogechain.info/address/DLHMhGRe8cCdJAypdt512e6PA6N2H5rNHy)
 
 ## :sunglasses: THAT'S IT!
 
